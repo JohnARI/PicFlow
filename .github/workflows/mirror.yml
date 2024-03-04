@@ -5,7 +5,7 @@ on:
     branches: [ "main" ]
 
 env:
-  MIRROR_URL: ${{ env.MIRROR_URL }}
+  MIRROR_URL: "git@github.com:EpitechMscProPromo2025/T-DEV-800-PAR_20.git
 
 jobs:
   push_to_mirror:
